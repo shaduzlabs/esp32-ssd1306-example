@@ -1,5 +1,7 @@
 # Using a SSD1306 OLED display with rastr on ESP32
 
+[![Build Status](https://travis-ci.org/shaduzlabs/sl-esp32-ssd1306-example.svg?branch=master)](https://travis-ci.org/shaduzlabs/sl-esp32-ssd1306-example) 
+
 ![Hello World! example](docs/hello-world.gif "Hello World!")
 
 This simple demo shows how to use the [rastr](https://github.com/shaduzlabs/rastr), a tiny graphic library, to draw to an SSD1306 based OLED display connected via SPI to an ESP32.
