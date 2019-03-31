@@ -2,7 +2,7 @@
 
 ![Hello World! example](docs/hello-world.gif "Hello World!")
 
-This simple demo shows how to use the [rastr](https://github.com/shaduzlabs/rastr), a tiny graphic library, to draw to an SSD1306 based OLED display connected via SPI to an ESP32. 
+This simple demo shows how to use the [rastr](https://github.com/shaduzlabs/rastr), a tiny graphic library, to draw to an SSD1306 based OLED display connected via SPI to an ESP32.
 After installing the toolchain, as explained in the [getting started](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/) section of the ESP documentation, follow these steps:
 - Clone this repository **recursively**: `git clone https://github.com/shaduzlabs/sl-esp32-ssd1306-example.git --recursive`
 - Go to the example repository directory: `cd sl-esp32-ssd1306-example`
@@ -13,7 +13,7 @@ After installing the toolchain, as explained in the [getting started](https://do
 
 ## Connections
 
-This example is based on an [ESP32 Pico D4 Kit](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/get-started-pico-kit.html), the table and the picture below show the connections between the display and the board. The pins can be changed from the configuration menu (SSD1306 Configuration).
+This example has been tested on an [ESP32 Pico D4 Kit](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/get-started-pico-kit.html), the table and the picture below show the connections between the display and the board. The pins can be changed from the configuration menu (see *SSD1306 Configuration*).
 
 | SSD1306            |  ESP32    |
 |--------------------|:---------:|
