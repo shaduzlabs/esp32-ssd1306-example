@@ -7,6 +7,7 @@
 
 #include "UI.h"
 
+#include <driver/spi_master.h>
 #include <esp_log.h>
 
 #include <sstream>
@@ -34,7 +35,7 @@ namespace esp32
 
 // -------------------------------------------------------------------------------------------------
 UI::UI()
- : m_lcd(esp32::SSD1306::PinConfig{k_spiPinSCLK, k_spiPinCS, k_spiPinMOSI, k_outputPinDC, k_outputPinRST})
+ : m_lcd(esp32::SSD1306::PinConfig{k_spiPinSCLK, k_spiPinCS, k_spiPinMOSI, k_outputPinDC, k_outputPinRST, HSPI_HOST, 1})
 {
 }
 
