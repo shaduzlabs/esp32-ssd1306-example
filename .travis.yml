@@ -21,7 +21,7 @@ install:
   - export PATH=$PATH:$HOME/esp/xtensa-esp32-elf/bin
   - git clone --recursive https://github.com/espressif/esp-idf.git
   - export IDF_PATH=~/esp/esp-idf
-  - python -m pip install --user -r $IDF_PATH/esp-idf/requirements.txt
+  - python -m pip install --user -r $IDF_PATH/requirements.txt
 
 script:
   - cd $ESP32_PROJECT_PATH

@@ -34,7 +34,7 @@ namespace esp32
 
 // -------------------------------------------------------------------------------------------------
 UI::UI()
- : m_lcd(hw::SSD1306::PinConfig{k_spiPinSCLK, k_spiPinCS, k_spiPinMOSI, k_outputPinDC, k_outputPinRST})
+ : m_lcd(esp32::SSD1306::PinConfig{k_spiPinSCLK, k_spiPinCS, k_spiPinMOSI, k_outputPinDC, k_outputPinRST})
 {
 }
 
