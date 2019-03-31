@@ -1,13 +1,13 @@
 # Using a SSD1306 OLED display with rastr on ESP32
 
-[![Build Status](https://travis-ci.org/shaduzlabs/sl-esp32-ssd1306-example.svg?branch=master)](https://travis-ci.org/shaduzlabs/sl-esp32-ssd1306-example) 
+[![Build Status](https://travis-ci.org/shaduzlabs/esp32-ssd1306-example.svg?branch=master)](https://travis-ci.org/shaduzlabs/esp32-ssd1306-example)
 
 ![Hello World! example](docs/hello-world.gif "Hello World!")
 
 This simple demo shows how to use the [rastr](https://github.com/shaduzlabs/rastr), a tiny graphic library, to draw to an SSD1306 based OLED display connected via SPI to an ESP32.
 After installing the toolchain, as explained in the [getting started](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/) section of the ESP documentation, follow these steps:
-- Clone this repository **recursively**: `git clone https://github.com/shaduzlabs/sl-esp32-ssd1306-example.git --recursive`
-- Go to the example repository directory: `cd sl-esp32-ssd1306-example`
+- Clone this repository **recursively**: `git clone https://github.com/shaduzlabs/esp32-ssd1306-example.git --recursive`
+- Go to the example repository directory: `cd esp32-ssd1306-example`
 - Configure the project (e.g. the serial port of your device, etc.): `make menuconfig`
 - Build the example: `make`
 - Flash your device: `make flash`
