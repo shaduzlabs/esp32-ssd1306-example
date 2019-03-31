@@ -1,0 +1,9 @@
+[submodule "main/modules/rastr"]
+	path = components/rastr-esp32/rastr
+	url = https://github.com/shaduzlabs/rastr.git
+[submodule "components/sl-esp32-ssd1306"]
+	path = components/sl-esp32-ssd1306
+	url = https://github.com/shaduzlabs/sl-esp32-ssd1306.git
+[submodule "components/sl-esp32-rastr"]
+	path = components/sl-esp32-rastr
+	url = https://github.com/shaduzlabs/sl-esp32-rastr.git

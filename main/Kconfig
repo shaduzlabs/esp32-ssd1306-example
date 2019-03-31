@@ -1,0 +1,38 @@
+menu "SSD1306 Configuration"
+
+config SSD1306_SDA
+  int "SDA pin"
+  range 0 39
+	default 23
+	help
+		The SPI data pin
+
+config SSD1306_SCL
+  int "SCLK pin"
+  range 0 39
+	default 19
+	help
+		The SPI clock pin
+
+config SSD1306_DC
+  int "D/C pin"
+  range 0 39
+	default 21
+	help
+		The D/C (Data/Command) pin
+
+config SSD1306_CS
+  int "CS pin"
+  range 0 39
+	default 22
+	help
+		The Chip Select pin
+
+config SSD1306_RST
+  int "Reset pin"
+  range 0 39
+	default 18
+	help
+		The display reset pin
+
+endmenu
